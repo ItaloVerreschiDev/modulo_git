@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    font-family: "Roboto", serif;
+}
+
+body > header {
+    background-color: #d47c07;
+    padding: 16px 0;
+    color: #000000;
+}
+
+header .container,
+section .articles {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img{
+    /*height: 180px;*/
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: blue;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#welcome {
+    background-color: rgba(29, 25, 25, 0.1);
+}
+
+#welcome .articles article a {
+    background-color: #e62b2b;
+}
+
+#infos {
+    background-color: #f8f59f;
+}
+
+#infos .articles article a {
+    background-color: #ff9f1a;
+}
+
+#latenews {
+    background-color: rgba(0, 89, 255, 0.15);
+}
+
+#latenews .articles article a {
+    background-color: #3db9eb;
+}
+
+footer {
+    background-color: #d47c07;
+    color: #000;
+    padding: 16px 0;
+    width: auto;
+}
+
+footer p {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 265px;
+}
